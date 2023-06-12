@@ -12,7 +12,7 @@ public class PrintVersionBusiness {
     @EventListener
     public void printVersion(ApplicationStartedEvent event) throws InterruptedException {
         while (true) {
-            log.info("Version 0.0.1");
+            log.info("Version 0.0.2");
             Thread.sleep(1000L);
         }
     }
